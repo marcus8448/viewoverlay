@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.marcus8448.mods.vieoverlay.mixin",
+  "compatibilityLevel": "JAVA_11",
+  "mixins": [
+    "CrashSenderMixin",
+    "DesktopInputMixin",
+    "VarsMixin"
+  ],
+  "client": [
+    "BlockRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

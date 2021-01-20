@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "viewoverlay",
+  "version": "${version}",
+
+  "name": "View Overlay",
+  "description": "Draws all machine radiuses on the screen when activated.",
+  "authors": [
+    "marcus8448"
+  ],
+  "contact": {
+    "homepage": "https://marcus8448.github,io/",
+    "sources": "https://github.com/marcus8448/viewoverlay"
+  },
+
+  "license": "MIT",
+  "icon": "assets/viewoverlay/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "io.github.marcus8448.mods.vieoverlay.ViewOverlay"
+    ]
+  },
+  "mixins": [
+    "viewoverlay.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "mindustry": ">=122.1"
+  }
+}
